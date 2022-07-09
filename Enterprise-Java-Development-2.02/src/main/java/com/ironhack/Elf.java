@@ -6,7 +6,7 @@ public class Elf extends Player {
     }
 
     public void sayHi(){
-        System.out.println("Us the elves are considered strong fighters, however we just want to chill in our beloved gardens, so please no more fighting for me");
+        System.out.println("My name is Elf of the hood, welcome to my little home called mushroom");
     }
 
 }

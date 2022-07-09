@@ -7,6 +7,6 @@ public class Warrior extends Player {
     }
 
     public void sayHi(){
-        System.out.println("Nop");
+        System.out.println("Hellooo i'm the strongest warrior in this castle!");
     }
 }

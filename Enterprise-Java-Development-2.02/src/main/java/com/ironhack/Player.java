@@ -9,6 +9,8 @@ package com.ironhack;
 
         private int lives;
 
+
+
         public static void oneLiveLessAndRefillHealth(Player p){
             p.setLives(p.getLives()-1);
             p.setHealth(100);
@@ -28,7 +30,7 @@ package com.ironhack;
             setName(name);
         }
 
-        public Player(int health, int experience, int level, String name, int lives) {
+        public Player(int health, int experience, int level, String name, int lives, int MAX_HEALTH) {
             this.health = health;
             this.experience = experience;
             this.level = level;
